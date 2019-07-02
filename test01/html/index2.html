@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <link rel="stylesheet" href="../../static/layui/css/layui.css">
+
+     
+</head>
+<body>
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+  <legend>青藏高原牦牛信息管理系统</legend>
+  
+</fieldset>
+ 
+<div class="layui-tab">
+  <ul class="layui-tab-title">
+    <li class="layui-this">若尔盖高寒盆地地表水危害因子</li>
+    <li>若尔盖高寒盆地土-草-水矿物及养分含量</li>
+    <li>牦牛投入品危害因子</li>
+    <li>牦牛舍环境危害因子</li>
+    <li>环境刺激因子对牦牛瘤胃及微生物的影响</li>
+  </ul>
+  <div class="layui-tab-content">
+    <div class="layui-tab-item layui-show">
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">放牧草地地表水有害因子</a>
+      	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">黑河区断流动水有害因子监测</a>
+      
+    </div>
+    <div class="layui-tab-item">
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">牧草矿物质icp原始数据</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">水体矿物质icp原始数据</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">土壤矿物质icp原始数据</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">土壤养分数据</a>
+
+    </div>
+    <div class="layui-tab-item">
+		<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场土壤pH值</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场土壤矿物质ICP原始数据</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场土壤重金属含量</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场饮用水pH</a>
+        <a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场饮用水矿物元素 icp原始数据-ms</a><br><br>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场饮用水重金属含量</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场饲料AFB1含量</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场饲料克伦特罗含量</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场饲料莱克多巴胺含量</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场饲料重金属元素icp原始数据</a>
+    	<br><br>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场饲料重金属元素含量</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场牦牛组织矿物质icp原始数据</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场牦牛组织瘦肉精检测</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">8个养殖场牦牛组织重金属含量</a>
+
+    </div>
+    <div class="layui-tab-item">
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">牦牛舍变化数据</a>
+    	
+    </div>
+    <div class="layui-tab-item">
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">黄曲酶素对牦牛瘤胃挥发性脂肪酸及纤维分解酶的影响</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">黄曲酶素对牦牛瘤胃液矿物元素及挥发性脂肪酸的影响</a>
+    	<a href="http://127.0.0.1:8000/cmd/1_1_1" class="layui-btn">黄曲酶素对牦牛血清生化指标的影响</a>
+    	
+    	
+    </div>
+  </div>
+  <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+  <legend><a href="http://127.0.0.1:8000/admin" class="layui-btn">管理后台</a></legend>
+  </fieldset>
+</div>
+
+
+<script src="../../static/layui/layui.js"></script>
+<script>
+//注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+layui.use('element', function(){
+  var element = layui.element;
+  
+  //…
+});
+</script>
+
+<script src="node_modules/vue/dist/vue.min.js"></script>
+<script>
+  new Vue ({
+  el:'#app',
+  data:{
+    tabId:1
+  }
+})
+</script>
+
+
+
