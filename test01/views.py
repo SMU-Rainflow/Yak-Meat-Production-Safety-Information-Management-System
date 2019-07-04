@@ -474,7 +474,7 @@ def index2(request):
     return render(request,"index2.html",context={"col":"col","cc":"c"})
 
 
-def  index3(request,slug):
+def  index3(request,slug,text):
     con =sqlite3.connect("db.sqlite3")
     sql = "SELECT * FROM test01_form{}".format(slug)
     df = pd.read_sql(sql,con)
@@ -496,4 +496,4 @@ def  index3(request,slug):
         #n+=1
     con.close()
 
-    return render(request,"index.html",context={"col":col,"cc":c})
+    return render(request,"index.html",context={"name":text,"col":col,"cc":c})
