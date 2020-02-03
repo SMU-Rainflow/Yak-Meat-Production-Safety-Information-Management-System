@@ -1,0 +1,19 @@
+{% extends "admin/base_site.html" %}
+ 
+{% block content %}
+    <form method="post" action="{{ path }}">
+        {% csrf_token %}
+        {{ form }}
+        <p>
+            <input type="hidden" name="action" value="{{ action }}" />
+            <input type="submit" name="cancel" value="取消" />
+            <input type="submit" value="确定"/>
+        </p>
+    </form>
+    <p>将批量修改以下所有对象</p>
+    <ul>
+        {% for obj in objs %}
+            <li>{{ obj }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

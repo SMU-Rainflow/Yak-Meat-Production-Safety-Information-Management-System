@@ -1,5 +1,5 @@
 from django.apps import AppConfig
-
+import os
 
 class Test01Config(AppConfig):
-    name = 'test01'
+    name = '牛肉安全生产系统'

@@ -52,7 +52,7 @@ class Form1_1_2(models.Model):
     id20 = models.FloatField("铅（Pb）")
 
     class Meta:
-        verbose_name="黑河区断流动水有害因子监测"
+        verbose_name="放牧草场河流（黑河）断面流动水有害因子监测"
         verbose_name_plural=verbose_name
 
 class Form2_1_1(models.Model):
@@ -105,7 +105,7 @@ class Form2_1_1(models.Model):
     id47 = models.FloatField("锌（Zn2062）")
 
     class Meta:
-        verbose_name="牧草矿物质icp原始数据"
+        verbose_name="牧草矿物质（ICP）原始数据"
         verbose_name_plural=verbose_name
 
 class Form2_1_2(models.Model):
@@ -158,7 +158,7 @@ class Form2_1_2(models.Model):
     id47 = models.FloatField("锌（Zn2062）")
 
     class Meta:
-        verbose_name="水体矿物质icp原始数据"
+        verbose_name="水体矿物质（ICP）原始数据"
         verbose_name_plural=verbose_name
 
 
@@ -214,7 +214,7 @@ class Form2_1_3(models.Model):
     id47 = models.FloatField("汞（Hg2599）")
 
     class Meta:
-        verbose_name="土壤矿物质icp原始数据"
+        verbose_name="土壤矿物质（ICP）原始数据"
         verbose_name_plural=verbose_name
 
 
@@ -247,7 +247,7 @@ class Form3_1_1(models.Model):
 
 
     class Meta:
-        verbose_name="8个养殖场土壤pH值"
+        verbose_name="养殖场土壤pH值"
         verbose_name_plural=verbose_name
 
 
@@ -287,7 +287,7 @@ class Form3_1_2(models.Model):
 
 
     class Meta:
-        verbose_name="8个养殖场土壤矿物质ICP原始数据"
+        verbose_name="养殖场土壤矿物质（ICP）原始数据"
         verbose_name_plural=verbose_name
 
 
@@ -303,7 +303,7 @@ class Form3_1_3(models.Model):
     id9 = models.FloatField("铅（Pb）")
 
     class Meta:
-        verbose_name="8个养殖场土壤重金属含量"
+        verbose_name="养殖场土壤重金属含量"
         verbose_name_plural=verbose_name
 
 
@@ -315,7 +315,7 @@ class Form3_2_1(models.Model):
 
 
     class Meta:
-        verbose_name="8个养殖场饮用水pH"
+        verbose_name="养殖场饮用水pH"
         verbose_name_plural=verbose_name
 
 
@@ -355,7 +355,7 @@ class Form3_2_2(models.Model):
     id32 = models.FloatField("锌（Zn2062）")
 
     class Meta:
-        verbose_name="8个养殖场饮用水矿物元素icp原始数据-ms"
+        verbose_name="养殖场饮用水矿物元素（ICP）原始数据"
         verbose_name_plural=verbose_name
 
 
@@ -370,7 +370,7 @@ class Form3_2_3(models.Model):
     id8 = models.FloatField("汞（Hg）")
 
     class Meta:
-        verbose_name="8个养殖场饮用水重金属含量"
+        verbose_name="养殖场饮用水重金属含量"
         verbose_name_plural=verbose_name
 
 
@@ -382,7 +382,7 @@ class Form3_3_1(models.Model):
     id5 = models.FloatField("玉米秸")
     id6 = models.FloatField("酒糟")
     class Meta:
-        verbose_name="8个养殖场饲料AFB1含量"
+        verbose_name="养殖场饲料AFB1含量"
         verbose_name_plural=verbose_name
 
 
@@ -395,7 +395,7 @@ class Form3_3_2(models.Model):
     id6 = models.FloatField("酒糟")
 
     class Meta:
-        verbose_name="8个养殖场饲料克伦特罗含量"
+        verbose_name="养殖场饲料克伦特罗含量"
         verbose_name_plural=verbose_name
 
 
@@ -408,7 +408,7 @@ class Form3_3_3(models.Model):
     id6 = models.FloatField("酒糟")
 
     class Meta:
-        verbose_name="8个养殖场饲料莱克多巴胺含量                     "
+        verbose_name="养殖场饲料莱克多巴胺含量"
         verbose_name_plural=verbose_name
 
 
@@ -449,7 +449,7 @@ class Form3_3_4(models.Model):
     id34 = models.FloatField("锌（Zn2062）")
 
     class Meta:
-        verbose_name="8个养殖场饲料重金属元素icp原始数据"
+        verbose_name="养殖场饲料重金属元素（ICP）原始数据"
         verbose_name_plural=verbose_name
 
 
@@ -466,7 +466,7 @@ class Form3_3_5(models.Model):
     id9 = models.FloatField("铜（Cu）")
     id10 = models.FloatField("镍（Ni）")
     class Meta:
-        verbose_name="8个养殖场饲料重金属元素含量"
+        verbose_name="养殖场饲料重金属元素含量"
         verbose_name_plural=verbose_name
 
 
@@ -488,7 +488,7 @@ class Form3_4_1(models.Model):
     id14 = models.FloatField("镍（Ni2216）")
     
     class Meta:
-        verbose_name="8个养殖场牦牛组织矿物质icp原始数据"
+        verbose_name="养殖场牦牛组织矿物质（ICP）原始数据"
         verbose_name_plural=verbose_name
 
 
@@ -502,7 +502,7 @@ class Form3_4_2(models.Model):
     id6 = models.FloatField("莱克多巴胺含量（μg/kg）")
 
     class Meta:
-        verbose_name="8个养殖场牦牛组织瘦肉精检测"
+        verbose_name="养殖场牦牛组织瘦肉精检测"
         verbose_name_plural=verbose_name
 
 
@@ -522,7 +522,7 @@ class Form3_4_3(models.Model):
     id12 = models.FloatField("镍（Ni2216）")
 
     class Meta:
-        verbose_name="8个养殖场牦牛组织重金属含量"
+        verbose_name="养殖场牦牛组织重金属含量"
         verbose_name_plural=verbose_name
 
 
@@ -545,7 +545,7 @@ class Form4_1_1(models.Model):
     id15 = models.FloatField("PM10第三天")
 
     class Meta:
-        verbose_name="牦牛舍变化数据"
+        verbose_name="牦牛舍环境变化数据"
         verbose_name_plural=verbose_name
 
 

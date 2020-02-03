@@ -20,14 +20,21 @@ from test01 import views
 from rest_framework import routers
 from test01 import views
 
+import xadmin
+
+
 router = routers.DefaultRouter()
 router.register(r"users",views.UserViewSet)
 router.register(r"groups",views.GroupViewSet)
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path(r"",views.index),
-    path(r'cmd/<slug>/<text>',views.index3),
+    path(r'', xadmin.site.urls),
+    #path(r'xadmin/', xadmin.site.urls),
+    #path('admin/', admin.site.urls),
+    #path(r"",views.index),
+    #path(r"man",views.index),
+    #path(r'cmd/<slug>/<text>',views.index3),
+    #path(r"form.xlsx",views.Daochu)
     #url(r'^', include(router.urls)),
     #url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
